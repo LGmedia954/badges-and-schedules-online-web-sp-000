@@ -5,10 +5,11 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(attendees)
-  attendees.map do |badge|
+def batch_badge_creator(speakers)
+  speakers.map do |badge|
   "Hello, my name is #{badge}."
   end
 end
 
-def 
+def assign_rooms(speakers)
+  
