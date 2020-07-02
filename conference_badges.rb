@@ -1,3 +1,4 @@
 # Write your code here.
 
-def 
+def badge_maker(name)
+  puts 
