@@ -12,4 +12,4 @@ def batch_badge_creator(speakers)
 end
 
 def assign_rooms
-  assignment = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  assignments = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
