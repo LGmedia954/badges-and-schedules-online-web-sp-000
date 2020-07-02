@@ -12,7 +12,7 @@ def batch_badge_creator(speakers)
 end
 
 def assign_rooms
-  assignments = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  basket.each do |apple|
+  breakouts = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  breakouts.each do |apple|
   puts "Taking out #{apple}"
 end
