@@ -13,6 +13,6 @@ end
 
 def assign_rooms
   breakouts = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  breakouts.each do |apple|
+  breakouts.each do |rooms|
   puts "Taking out #{apple}"
 end
