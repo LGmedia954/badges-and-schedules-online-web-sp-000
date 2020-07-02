@@ -13,3 +13,6 @@ end
 
 def assign_rooms
   assignments = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  basket.each do |apple|
+  puts "Taking out #{apple}"
+end
