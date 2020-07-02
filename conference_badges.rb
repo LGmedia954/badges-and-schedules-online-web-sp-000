@@ -16,3 +16,4 @@ def assign_rooms
   breakouts.each do |rooms|
   puts "Conference room assignments: #{rooms}"
 end
+end
