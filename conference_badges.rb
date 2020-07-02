@@ -19,6 +19,6 @@ end
   
 def printer(speakers)
   batch_badge_creator.each do |badge|
-  puts #{assign_rooms}
+  puts badge
   counter <= 6
 end
