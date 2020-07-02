@@ -7,7 +7,7 @@ end
 
 def batch_badge_creator(speakers)
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  speakers.each{|badge| puts "Meet your presenter #{badge}"}
+  speakers.each{|badge| return "Meet your presenter #{badge}"}
 end
 
 def assign_rooms
