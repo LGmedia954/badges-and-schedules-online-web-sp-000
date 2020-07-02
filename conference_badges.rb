@@ -14,5 +14,5 @@ end
 def assign_rooms
   breakouts = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   breakouts.each do |rooms|
-  puts "Taking out #{apple}"
+  puts "Room assignments Taking out #{apple}"
 end
