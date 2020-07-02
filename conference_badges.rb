@@ -14,8 +14,12 @@ end
 
 def assign_rooms(speakers)
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  speakers.each do |rooms|
-  return "Hello, #{speakers}! You'll be assigned to room #{rooms}!"
-  counter <= 6
+
+  
+  
+  hash = Hash.new
+  %w(speakers).each_with_index { |item, index|
+  hash[item] = index
+}
   end
 end
