@@ -17,6 +17,7 @@ def assign_rooms(speakers)
   hash = Hash.new
   %w(speakers).each_with_index { |item, index|
   hash[item] = index
+  returns 
 }
   end
 end
