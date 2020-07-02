@@ -13,8 +13,10 @@ def batch_badge_creator(speakers)
 end
 
 def assign_rooms
-  breakouts = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  breakouts.each do |rooms|
-  puts "Conference room assignments: #{rooms}"
+  speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  counter = 1
+  speakers.each do |rooms|
+  puts "Conference speaker: #{speakers}"
+  puts "Room number #{counter}"
 end
 end
