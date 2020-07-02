@@ -18,5 +18,5 @@ def assign_rooms
   speakers.each do |rooms|
   puts "Conference speaker: #{speakers}"
   puts "Room number #{counter}"
-end
+  end
 end
