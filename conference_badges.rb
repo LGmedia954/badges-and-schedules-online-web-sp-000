@@ -12,5 +12,4 @@ def batch_badge_creator(speakers)
 end
 
 def assign_rooms
-  Room1 = "Edsger"
-  Room"Ada", "Charles", "Alan", "Grace", "Linus", "Matz"
+  assignment = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
