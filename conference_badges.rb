@@ -14,9 +14,6 @@ end
 
 def assign_rooms(speakers)
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-
-  
-  
   hash = Hash.new
   %w(speakers).each_with_index { |item, index|
   hash[item] = index
