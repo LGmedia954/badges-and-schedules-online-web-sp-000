@@ -20,10 +20,4 @@ def assign_rooms(speakers)
   end
 end
   
-  
-  
-  
-  
-  
-  
-  speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+ 
