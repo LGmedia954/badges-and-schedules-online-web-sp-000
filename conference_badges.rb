@@ -10,3 +10,5 @@ puts "#{name}, Presenter"
 end
 
 def assign_rooms
+  Room1 = "Edsger"
+  Room"Ada", "Charles", "Alan", "Grace", "Linus", "Matz"
