@@ -12,11 +12,10 @@ def batch_badge_creator(speakers)
   end
 end
 
-def assign_rooms
+def assign_rooms(speakers)
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   speakers.each do |rooms|
-  puts "Conference speaker: #{speakers}"
-  puts "Room number #{counter}"
+  return "Hello, #{speakers}! You'll be assigned to room #{rooms}!"
   counter <= 6
   end
 end
