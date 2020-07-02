@@ -14,9 +14,10 @@ end
 
 def assign_rooms
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  counter = 1
+  counter <= 6
   speakers.each do |rooms|
   puts "Conference speaker: #{speakers}"
   puts "Room number #{counter}"
+  counter 
   end
 end
