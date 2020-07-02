@@ -5,8 +5,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(speakers)
-speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+speakers.each do = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 puts "#{name}, Presenter"
+end
 end
 
 def assign_rooms
