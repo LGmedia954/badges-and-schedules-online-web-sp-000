@@ -17,7 +17,7 @@ def assign_rooms(speakers)
   hash = Hash.new
   %w(speakers).each_with_index { |item, index|
   hash[item] = index
-  returns 
+  returns "Hello, _____! You'll be assigned to room _____!"
 }
   end
 end
